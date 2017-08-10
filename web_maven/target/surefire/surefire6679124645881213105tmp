@@ -1,0 +1,25 @@
+#surefire
+#Wed Aug 09 22:06:50 CST 2017
+testClassesDirectory=D\:\\Eclipse EE\\workspace\\web_maven\\target\\test-classes
+classPathUrl.4=C\:\\Users\\Administrator\\.m2\\repository\\javax\\servlet\\javax.servlet-api\\3.0.1\\javax.servlet-api-3.0.1.jar
+forkMode=once
+classPathUrl.3=C\:\\Users\\Administrator\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar
+classPathUrl.2=C\:\\Users\\Administrator\\.m2\\repository\\junit\\junit\\4.10\\junit-4.10.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\Eclipse EE\\workspace\\web_maven\\target\\classes
+reportsDirectory=D\:\\Eclipse EE\\workspace\\web_maven\\target\\surefire-reports
+classPathUrl.0=D\:\\Eclipse EE\\workspace\\web_maven\\target\\test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\Eclipse EE\\workspace\\web_maven\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\Administrator\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.10\\surefire-api-2.10.jar
+surefireClassPathUrl.0=C\:\\Users\\Administrator\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.10\\surefire-junit4-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false

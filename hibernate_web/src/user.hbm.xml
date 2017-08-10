@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-8-8 20:05:18 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.example.User" table="tb_user">
+        <id name="id">
+            <generator class="increment"></generator>    <!-- 当没有其他进程将数据插入此表时，才会生成唯一的ID  第一个生成的标识符通常为1，然后每次递增为1-->
+        </id>
+        <property name="name"></property>
+        <property name="password"></property>
+        <property name="email"></property>
+    </class>
+</hibernate-mapping>
