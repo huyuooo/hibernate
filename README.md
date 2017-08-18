@@ -15,3 +15,13 @@ hibernate学习
    使用maven构建web项目
    通过maven构建了一个简单的web项目 
    参考教程http://www.imooc.com/learn/443
+
+4. HibernateQuickStart
+   参考易百教程使用mvn构建工程，包括了通用的hibernate数据库操作方法：<br>
+   **HQL语句查询：**查询读取多列数据、查询检索唯一结果；<br>
+   **hibernate生命周期 瞬态、持久好分离的理解和操作：**<br>
+	   *瞬态——持久化：* persis()、save（）、saveOrUpdate()、merge（）<br>
+	   *持久化——分离：*evict()、clear() <br>
+	   *分离——持久:* update()、saveOrUpdate()、merge（）、refresh()、lock()<br>		
+
+   
