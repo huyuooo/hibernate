@@ -22,6 +22,9 @@ hibernate学习
    **hibernate生命周期 瞬态、持久好分离的理解和操作：**<br>
 	   *瞬态——持久化：* persis()、save（）、saveOrUpdate()、merge（）<br>
 	   *持久化——分离：*evict()、clear() <br>
-	   *分离——持久:* update()、saveOrUpdate()、merge（）、refresh()、lock()<br>		
+	   *分离——持久:* update()、saveOrUpdate()、merge（）、refresh()、lock()<br>
+5. many2one
+   参考how2j上的教程，对hibernate的关系进行了学习，包括：<br>
+   一对多  多对一  多对多		
 
    
