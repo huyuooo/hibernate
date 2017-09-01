@@ -32,7 +32,28 @@ hibernate学习
   	*none:*所有操作都不执行级联操作；<br>
    *delete:*删除时执行级联操作；<br>
    *save-update：*保存和更新时执行级联操作；<br>
-   
+7. hibernate_Criteria　**分页查询**<br> 
+   ```
+   Criteria c= s.createCriteria(Product.class);
+   c.add(Restrictions.like("name", "%"+name+"%"));
+   c.setFirstResult(2);
+   c.setMaxResults(5);
+   ```
+   ```
+   c.setFirstResult(2); 表示从第2条数据开始
+   c.setMaxResults(5); 表示一共查询5条数据
+   ```
+8. hibernate_get_load
+   通过ID回去对象的方式有两种，分别是get和load：<br>
+   他们的区别分别在于: **延迟加载**， **对于id不存在的时候的处理**<br>
+   *延迟加载：*<br>
+   　　load方式是延迟加载，只有属性被访问的时候才会调用sql语句<br>
+   　　get方式是非延迟加载，无论后面的代码是否会访问到属性，马上执行sql语句<br>
+   *对于id不存在的对象的处理:*<br>
+   　　get方式会返回null <br>
+　　load方式会抛出异常
+
+
  
 
    
