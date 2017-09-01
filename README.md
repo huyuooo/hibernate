@@ -43,7 +43,7 @@ hibernate学习
    c.setFirstResult(2); 表示从第2条数据开始
    c.setMaxResults(5); 表示一共查询5条数据
    ```
-8. hibernate_get_load
+8. hibernate_get_load<br>
    通过ID回去对象的方式有两种，分别是get和load：<br>
    他们的区别分别在于: **延迟加载**， **对于id不存在的时候的处理**<br>
    *延迟加载：*<br>
