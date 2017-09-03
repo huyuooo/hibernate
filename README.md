@@ -28,7 +28,7 @@ hibernate学习
    一对多  多对一  多对多	<br>	
 6. hibernate_jilian<br>
    级联可以总结为一对多中关系的关联，对“一”操作后，“多”也进行相应变换。包括4种类型：<br>
-	*all:*所有操作都执行级联操作；<br> 
+   *all:*所有操作都执行级联操作；<br> 
   	*none:*所有操作都不执行级联操作；<br>
    *delete:*删除时执行级联操作；<br>
    *save-update：*保存和更新时执行级联操作；<br>
@@ -52,6 +52,9 @@ hibernate学习
    *对于id不存在的对象的处理:*<br>
    　　get方式会返回null <br>
 　　load方式会抛出异常
+9. hibernate_zhujie <br>
+   将上面的例子hbm.xml文件用注解代替，实现了：<br>
+   **一对多**  **多对一**  **多对多**
 
 
  
